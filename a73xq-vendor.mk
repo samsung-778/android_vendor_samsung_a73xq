@@ -24,6 +24,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a73xq/proprietary/vendor/etc/sensors/config/kodiak_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_default_sensors.json \
     vendor/samsung/a73xq/proprietary/vendor/etc/sensors/config/kodiak_icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_icm4x6xx_0.json \
     vendor/samsung/a73xq/proprietary/vendor/etc/sensors/config/kodiak_stk3a0x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_stk3a0x_0.json \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
     vendor/samsung/a73xq/proprietary/vendor/firmware/Data.msc:$(TARGET_COPY_OUT_VENDOR)/firmware/Data.msc \
     vendor/samsung/a73xq/proprietary/vendor/firmware/bt_nvm_loading.xml:$(TARGET_COPY_OUT_VENDOR)/firmware/bt_nvm_loading.xml \
     vendor/samsung/a73xq/proprietary/vendor/firmware/cs35l40-bot-dsp1-spk-prot-calib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l40-bot-dsp1-spk-prot-calib.bin \
@@ -33,6 +35,32 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a73xq/proprietary/vendor/firmware/cs35l40-rcv-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l40-rcv-dsp1-spk-prot.bin \
     vendor/samsung/a73xq/proprietary/vendor/firmware/cs35l40-rcv-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l40-rcv-dsp1-spk-prot.wmfw \
     vendor/samsung/a73xq/proprietary/vendor/firmware/dax_param.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dax_param.bin \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass-lt.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b00 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass-lt.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b02 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass-lt.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b03 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass-lt.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b04 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass-lt.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b05 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass-lt.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b06 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass-lt.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b07 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass-lt.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b08 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass-lt.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b09 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass-lt.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b10 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass-lt.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b19 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass-lt.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.mbn \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass-lt.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.mdt \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b01 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b02 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b03 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b04 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b05 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b06 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b07 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b08 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b09 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b10 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b19 \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mbn \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/evass.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mdt \
     vendor/samsung/a73xq/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
     vendor/samsung/a73xq/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
     vendor/samsung/a73xq/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
@@ -40,6 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a73xq/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
     vendor/samsung/a73xq/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/samsung/a73xq/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/multical.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/multical.bin \
     vendor/samsung/a73xq/proprietary/vendor/firmware/ois_mcu_stm32g_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_mcu_stm32g_fw.bin \
     vendor/samsung/a73xq/proprietary/vendor/firmware/qca6750/bdwlan.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6750/bdwlan.elf \
     vendor/samsung/a73xq/proprietary/vendor/firmware/qca6750/bdwlan.elf1:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6750/bdwlan.elf1 \
